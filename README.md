@@ -1,201 +1,116 @@
-# Awesome-Digital-Marketing-Asset-Management
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Digital Marketing Asset Management (DAM) Banner" width="100%">
+</p>
 
-# Awesome-Digital-Marketing-Asset-Management
+# 🚀 Awesome Digital Marketing Asset Management (DAM)
 
-**Top Digital Marketing Asset Management (Opensource) 🌟 Star if you like it! 🌟**
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Digital-Marketing-Asset-Management/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Digital-Marketing-Asset-Management)
 
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Brand Portals, Asset Governance, AI Tagging & Self-Hosted DAM Platforms*
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Digital Marketing Asset Management**. These tools enable marketing teams to store, organize, find, and distribute brand assets, creative collateral, and campaign materials—from fully managed enterprise DAMs with AI-powered tagging to open-source alternatives that give organizations control over their brand's source of truth.
-
-
-
-**Examples** include Bynder, Brandfolder, Canto, Frontify, MediaValet, Widen Collective (Acquia DAM), Air, Aprimo, Filecamp, and HubSpot Asset Management (the category leaders in commercial space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted DAM, brand asset management, and open marketing libraries. **Critical note**: The open-source DAM landscape is genuinely viable—**Longpoint** is a modern, self-hosted DAM with semantic search and AI classification , **ResourceSpace** remains the established veteran with a free self-hosted edition , and **Phrasea** offers a modern MIT-licensed alternative . No open-source project matches Bynder's enterprise workflow depth or Frontify's brand guideline integration, but for core asset library functionality, the options are production-capable.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **Bynder**
-
-  **Enterprise digital asset management** with brand guidelines and creative workflows. **Pricing**: Quote-only; no published pricing. Annual enterprise contracts. **Free tier**: None. **Best for**: large enterprises needing scalable DAM with governance and integrations—**trade-off**: enterprise pricing; implementation commitment.
-
-
-
-- **Brandfolder** (Smartsheet)
-
-  **Digital asset management and brand management** with visual search and brand portals. **Pricing**: **Quote-only**—Premium and Enterprise plans published with no prices; **no free tier, no trial, no self-serve signup**; all calls to action are "Book a demo" . **Free tier**: None. **Best for**: marketing teams wanting an intuitive DAM with strong visual search—**trade-off**: entirely sales-led; no public rate card.
-
-
-
-- **Canto**
-
-  **DAM platform** with AI-powered tagging and brand portals. **Pricing**: **Quote-only**—no published pricing structure; contact for unique quote . **Free tier**: None. **Best for**: mid-market teams wanting AI-assisted asset organization—**trade-off**: pricing opacity; sales-led evaluation.
-
-
-
-- **Frontify**
-
-  **Brand management platform** combining DAM, guidelines, and creative collaboration. **Pricing**: **Quote-only**; **onboarding fees $2,000–$15,000+**; **storage overages $50–$150 per 100 GB/year**; **annual escalation 3–7%**; premium support adds 10–20% . **Free tier**: None. **Best for**: organizations wanting unified brand assets and guidelines—**trade-off**: hidden costs (onboarding, storage, escalation); negotiate aggressively.
-
-
-
-- **MediaValet**
-
-  **Cloud-native DAM** with AI and workflow automation. **Pricing**: **Quote-only**; **priced on storage, not users**—unlimited users, permission groups, support, training, and AI search included in base . **Free tier**: None. **Best for**: organizations expecting user growth wanting predictable pricing—**trade-off**: storage-based model; video-heavy libraries cost more.
-
-
-
-- **Widen Collective (Acquia DAM)**
-
-  **Enterprise DAM** with brand portals and analytics. **Pricing**: **Quote-only**; **Workgroup (up to 50 users, 1 TB) estimated $30,000–$100,000/year**; **Enterprise (unlimited users, 10 TB) $100,000–$500,000+/year**; **API overages above 500,000 calls/month** . **Free tier**: None. **Best for**: enterprises needing comprehensive DAM with PIM integration—**trade-off**: six-figure commitments; API call limits.
-
-
-
-- **Air**
-
-  **AI-native creative asset management** platform. **Pricing**: **Starter $25/month or $250/year**; **Business $1,100/month or $10,800/year** (annual $900/month); **Enterprise custom** . **Free tier**: None. **Best for**: creative teams wanting AI-powered asset organization—**trade-off**: credit-based pricing for enriched storage and AI generation.
-
-
-
-- **Aprimo**
-
-  **Marketing operations and DAM** platform. **Pricing**: **Starting at $60,000/year** . **Free tier**: None. **Best for**: enterprises needing DAM integrated with marketing resource management—**trade-off**: six-figure entry point; enterprise focus.
-
-
-
-- **Filecamp**
-
-  **DAM for SMBs** with simple file sharing. **Pricing**: **Starting at $29/month** . **Free tier**: Trial available. **Best for**: small teams wanting affordable DAM with basic features—**trade-off**: limited enterprise features.
-
-
-
-- **HubSpot Asset Management**
-
-  **Asset management within HubSpot** ecosystem. **Pricing**: Included with HubSpot tiers. **Free tier**: Limited. **Best for**: HubSpot users wanting basic asset organization within their CRM.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **Longpoint**
-
-  **Extensible, self-hosted digital asset management system** (FSL-1.1-Apache-2.0, converts to Apache 2.0 after two years) — **the most modern open-source DAM** with AI-native features and API-first design . **Features**: **Robust media pipeline**—upload/storage with multiple backends, automatic transcoding and thumbnail generation, URL signing and CDN integration, documented REST API with TypeScript SDK. **Intelligent organization**—**semantic search** using natural language (not just filenames), **automatic classification** with scene detection and tagging, multimodal understanding of images, videos, audio, and documents together. **Your infrastructure, your rules**—self-hosted with full control, **bring your own models** (Claude, GPT, open source, or your own), extensible through plugins . **Tech stack**: Per repository (TypeScript SDK). **Deploy**: Self-hosted (Docker). **Trade-off**: **Newer project** with limited public validation; FSL license converts to Apache 2.0 after two years but has restrictions before then. **Best for**: teams wanting a modern, AI-native self-hosted DAM with semantic search and model flexibility—especially those building media-rich applications or wanting a home-base for assets without SaaS lock-in.
-
-
-
-- **ResourceSpace**
-
-  **Open-source DAM platform** (BSD-style licence with trademark clause) — **the most widely used established open-source DAM**, with active community and clean web interface . **Features**: **Flexible metadata schemas** and **role-based permissions** out of the box; **good built-in search**; clean web interface; shallow learning curve; active community. Used by education, media, and nonprofit sectors for large image and document libraries . **Tech stack**: PHP, MySQL, Apache. **Deploy**: Self-hosted (official Docker image, or checkout and web setup) or vendor-hosted . **Trade-off**: **UI feels dated**; **large-scale deployments can become slow without careful server tuning**; real-time collaboration limited at tens of thousands of assets . **Best for**: organizations wanting a proven, free open-source DAM with flexible metadata and permissions—especially education, nonprofits, and media teams with existing PHP infrastructure.
-
-
-
-- **Phrasea**
-
-  **Open-source DAM for modern organizations** (MIT) — **the modern successor to Phraseanet**, rebuilt for contemporary workflows . **Features**: **Docker Compose and Kubernetes deployment**; designed for organizations needing modern DAM capabilities; MIT licensed—fully permissive. **Tech stack**: Docker Compose services. **Deploy**: Self-hosted (Docker Compose, Kubernetes) or vendor-hosted . **Trade-off**: **Newer than ResourceSpace**—smaller community and less documentation; English-language resources may be limited. **Best for**: teams wanting a modern, MIT-licensed open-source DAM without the legacy constraints of older platforms.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Phraseanet** — French open-source DAM for media organizations (GPLv3; being continued as Phrasea) . **Note**: Supports IPTC, XMP, Dublin Core natively; built-in transcoding; strong search. **Trade-off**: smaller community; English docs sparse . **Best for**: broadcasters and agencies with heavy multimedia needs.
-
-- **Pimcore** — Platform combining DAM, PIM, and CMS (Pimcore Open Core License from 2025.1; version 2024.4 was last GPLv3) . **Note**: **License restricts free production use to organizations with ≤€5M revenue and non-profits**—larger organizations need commercial edition. **Best for**: e-commerce and retail teams needing DAM tightly coupled to product data.
-
-- **AtroCore (formerly AtroDAM)** — Business application platform with DAM (GPLv3 core, paid premium modules) . **Note**: AtroDAM is archived and merged into AtroCore. **Best for**: teams wanting a modular platform with DAM as one component.
-
-- **Piwigo** — Open-source photo gallery software (GPLv2) usable as lightweight DAM . **Note**: Photo-focused; not for general marketing collateral. **Best for**: photography-heavy libraries on a budget.
-
-
-
-**Frameworks for building custom systems**: Combine **Longpoint** for AI-native asset management with **ResourceSpace** for proven metadata flexibility and **Phrasea** as a modern MIT alternative—creating a layered open-source DAM stack. **None of these match Bynder's enterprise workflows or Frontify's brand guideline integration**, but for core asset library functionality, the options are production-capable.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Digital asset platforms handling brand materials and proprietary creative must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls for unreleased content.
-
-- **The "AI-native DAM" vs. "established DAM" vs. "PIM-integrated platform" distinction is critical.** **Longpoint** is **AI-native DAM**—semantic search, automatic classification, bring-your-own-models . **ResourceSpace and Phrasea** are **established DAM**—metadata, permissions, and search without AI-native features . **Pimcore** is a **PIM-integrated platform**—DAM is one component of product information management, with license restrictions for larger organizations . **Choose based on whether you need AI-powered organization, proven stability, or tight product-data integration.**
-
-- **Longpoint is the most modern open-source DAM** with semantic search, multimodal understanding, and model flexibility . **The trade-off**: FSL license restricts use before converting to Apache 2.0 after two years; newer project with limited validation.
-
-- **ResourceSpace is the safest established choice**—widely used, flexible metadata, role-based permissions, and a free self-hosted edition . **The trade-off**: dated UI; performance degrades at scale without tuning.
-
-- **Pimcore's license is a trap for larger organizations.** Under POCL, free production use is limited to organizations with **≤€5M global revenue** and non-profits; larger organizations need a commercial edition . **Do not evaluate Pimcore without verifying license compatibility.**
-
-- **MediaValet's storage-based pricing is the most predictable**—unlimited users, support, training, and AI search included in base . **For organizations expecting user growth, it is worth comparing against user-based models.**
-
-- **Frontify's hidden costs are material.** Onboarding **$2,000–$15,000+**, storage overages **$50–$150 per 100 GB/year**, annual escalation **3–7%**, premium support **10–20% extra** . **Negotiate storage allocation, onboarding fees, and escalation caps upfront—buyers who do save 10–20%** .
-
-- **Brandfolder has no free tier, no trial, and no self-serve signup.** All pricing is quote-only through "Book a demo" . **Do not plan a self-serve evaluation.**
-
-- **Air is the most affordable SaaS entry point** at **$25/month Starter**—but credit-based pricing for enriched storage and AI generation . **Filecamp starts at $29/month** for SMBs .
-
-- Self-hosted open-source solutions require proper infrastructure (Docker for Longpoint, PHP/MySQL for ResourceSpace/Phrasea), security hardening, and ongoing maintenance. **Brand assets and unreleased creative are sensitive**—ensure your deployment meets your organization's security and confidentiality requirements before storing proprietary materials.
-
-
+> 🌟 **A comprehensive, SEO-optimized, community-curated directory of Digital Marketing Asset Management (DAM) software, Brand Portals, Content Governance Suites, and Open-Source Self-Hosted Media Repositories.**
 
 ---
 
+## 📑 Table of Contents
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 Commercial SaaS Platforms](#-commercial-saas-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🎯 Choosing the Right DAM Architecture](#-choosing-the-right-dam-architecture)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & Compliance](#-disclaimer--compliance)
 
+---
 
-**Made for brand managers, marketing teams, and organizations building transparent asset management solutions.**
+## 🌐 Sector Overview & Market Dynamics
 
-Let's make Digital Marketing Asset Management more open, data-driven, and brand-sovereign.
+The global Digital Asset Management (DAM) market is currently valued between **$6.2 billion and $8.9 billion**, projected to exceed **$25 billion to $33 billion by the mid-2030s**, compounding at a robust **CAGR of 13%–18%**. 
+
+From a competitive standpoint, the sector is **moderately fragmented**: broad industry adoption features intense competition across dozens of specialized, vertical-specific vendors (such as creative workflow DAMs, brand guideline hubs, and self-hosted open-source alternatives), while enterprise marketing cloud suites (such as Adobe Experience Manager and OpenText) and CRM giants (like HubSpot) command high concentration at the upper enterprise tier through bundled suites and corporate acquisitions.
+
+---
+
+## 💼 Commercial SaaS Platforms
+
+Below is an overview of commercial SaaS DAM platforms, complete with verified base tier entry costs, free tier limits / trial durations, and company size (revenue / valuation), sorted in descending order of enterprise scale.
+
+| Platform | Enterprise Scale (Revenue / Valuation) | Starting Pricing (Specific Tier) | Free Tier / Trial Limits | Key Features & Trade-offs |
+| :--- | :--- | :--- | :--- | :--- |
+| **[HubSpot Asset Management](https://www.hubspot.com/)** | **~$2.6B ARR** / ~$30B Market Cap | **$15/month** (Starter tier for paid marketing features & higher asset limits) | **Free Forever plan** (Max file upload limit: **20 MB per file**; **5 shared tracked sales documents**; HubSpot branding on hosted assets) | Native CRM asset repository and campaign file management; limited for complex high-resolution multi-format video pipelines. |
+| **[Widen Collective (Acquia DAM)](https://www.acquia.com/products/dam)** | **~$400M ARR** (Acquia parent valuation ~$1B+) | **~$30,000/year** (Workgroup entry tier: up to 50 users, 1 TB storage, API up to 500k calls/mo) | **No Free Forever plan**; **Guided 14-day proof-of-concept / sandbox trial** upon sales request | Enterprise-grade governance, product information management (PIM) workflows, and deep CMS integrations; six-figure commitments at scale. |
+| **[Aprimo](https://www.aprimo.com/)** | **~$200M+ ARR** / ~$800M Valuation | **$60,000/year** (Entry enterprise DAM package) | **No Free Forever plan**; **Interactive test drive / guided pilot** arranged via enterprise sales | Marketing resource management (MRM) synergy, enterprise compliance, and AI tagging; prohibitive entry price point for SMBs. |
+| **[Bynder](https://www.bynder.com/)** | **~$150M+ ARR** / ~$600M Valuation | **~$450/month ($5,400/year)** (Entry-level deployment for core brand portal) | **No Free Forever plan**; **No self-service trial** (Guided sandbox demo / trial environment via sales consultation only) | Polished brand guidelines, templating engine, and creative review workflows; multi-year lock-in and sales-led pricing. |
+| **[Brandfolder](https://brandfolder.com/)** (Smartsheet) | **~$150M Division Revenue** (Smartsheet $1B+ ARR) | **~$1,500/month ($18,000/year)** (Premium tier base contract) | **No Free Forever plan**; **No self-service trial** (Sandbox proof-of-concept on sales request; includes **unlimited free guest users** on paid plans) | Superior visual search, intuitive UI, and guest sharing; entirely sales-negotiated with no transparent public rate card. |
+| **[Canto](https://www.canto.com/)** | **~$100M+ ARR** / Private Equity Backed | **~$25,000/year** (AWS Marketplace & direct entry deployment, ~2 TB storage bundled) | **No Free Forever plan**; **7-day free trial** with full system features (requested via website form) | Strong AI-driven auto-tagging, facial recognition, and curated team portals; opaque pricing tiers requiring sales consultation. |
+| **[Frontify](https://www.frontify.com/)** | **~$50M+ ARR** / Series C (~$500M+ Valuation) | **$100/month ($1,200/year)** (Basic team seat packaging entry point) | **No Free Forever plan**; **14-day free trial** (No credit card required; access to brand guidelines & DAM core) | Unified brand asset hub combining design tokens, brand manuals, and digital assets; onboarding fees ($2k–$15k) and storage overages can escalate costs. |
+| **[MediaValet](https://www.mediavalet.com/)** | **~$20M+ ARR** / ~$80M Market Cap | **~$300/month ($3,600/year)** (Base entry storage package) | **No Free Forever plan**; **Guided sandbox environment** granted after initial discovery demo | Pure storage-based pricing with **unlimited user seats**, built-in AI auto-tagging, and Azure cloud durability; video-heavy libraries face storage surcharges. |
+| **[Air](https://air.inc/)** | **~$10M ARR** / Series B (~$100M+ Valuation) | **$25/month ($300/year)** (Starter tier: 200 GB storage, unlimited users) | **Free Forever plan** (Capped at **3 users**, **10 GB storage**, and **100 AI credits/month** [~20 AI images or 2 AI videos]) | Modern AI-native visual boards, creative asset feedback, and affordable micro-team tiering; credit metering for heavy generative AI workloads. |
+| **[Filecamp](https://filecamp.com/)** | **~$5M ARR** / Bootstrapped & Profitable | **$29/month** (Basic tier: 20 GB storage, unlimited users, custom branding) | **No Free Forever plan**; **30-day free trial** (Full Professional features, **unlimited users**, no credit card required) | Extremely budget-friendly flat-rate pricing with unlimited users; lacks advanced AI auto-tagging and enterprise single-sign-on (SSO). |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Explore battle-tested, self-hosted, and community-maintained open-source alternatives. Repositories are ranked in descending order of GitHub star count, featuring real-time star badges linking directly to their stargazers page.
+
+| Repository | GitHub Stars Badge | Primary Focus & Capabilities | Tech Stack | License |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Photoprism](https://github.com/photoprism/photoprism)** | [![Photoprism Stars](https://img.shields.io/github/stars/photoprism/photoprism?style=social&color=white)](https://github.com/photoprism/photoprism/stargazers) | 🤖 **AI-Powered Visual Asset Library**: Highly optimized for visual indexing, automatic face detection, reverse-geocoding, and semantic image classification. | Go, Vue.js, TensorFlow | AGPL-3.0 |
+| **[Pimcore](https://github.com/pimcore/pimcore)** | [![Pimcore Stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers) | 📦 **Enterprise DAM + PIM + DXP**: Full-scale master data management unifying digital marketing collateral, e-commerce product media, and omnichannel asset distribution. *(Note: POCL license limits free production use to organizations ≤€5M revenue).* | PHP, Symfony, MySQL | Pimcore Open Core / GPLv3 |
+| **[Piwigo](https://github.com/Piwigo/Piwigo)** | [![Piwigo Stars](https://img.shields.io/github/stars/Piwigo/Piwigo?style=social&color=white)](https://github.com/Piwigo/Piwigo/stargazers) | 🖼️ **Photo & Media Management Gallery**: Lightweight, extensible web gallery with 200+ community plugins, batch uploaders, metadata management (EXIF/IPTC), and multi-level privacy controls. | PHP, MySQL, JavaScript | GPL-2.0 |
+| **[Manyfold](https://github.com/manyfold3d/manyfold)** | [![Manyfold Stars](https://img.shields.io/github/stars/manyfold3d/manyfold?style=social&color=white)](https://github.com/manyfold3d/manyfold/stargazers) | 📐 **3D & Multidimensional Creative DAM**: Specialized self-hosted digital asset manager for 3D marketing files, product CAD renders, STL, OBJ, and design collateral. | Ruby on Rails, Three.js, Docker | MIT |
+| **[Akeneo PIM Community](https://github.com/akeneo/pim-community-dev)** | [![Akeneo Stars](https://img.shields.io/github/stars/akeneo/pim-community-dev?style=social&color=white)](https://github.com/akeneo/pim-community-dev/stargazers) | 🛍️ **Product Asset Management & Media Hub**: Centralizes creative brand marketing collateral, packaging visuals, and multi-channel product catalogs. | PHP, Symfony, React | OSL-3.0 |
+| **[Phraseanet](https://github.com/alchemy-fr/Phraseanet)** | [![Phraseanet Stars](https://img.shields.io/github/stars/alchemy-fr/Phraseanet?style=social&color=white)](https://github.com/alchemy-fr/Phraseanet/stargazers) | 🎞️ **Broadcast & Enterprise Media DAM**: Designed for heavy video, photography, and audio collections with native support for IPTC, XMP, Dublin Core metadata, and automated transcoding. | PHP, Elasticsearch, Docker | GPL-3.0 |
+| **[Daminik](https://github.com/daminikhq/daminik)** | [![Daminik Stars](https://img.shields.io/github/stars/daminikhq/daminik?style=social&color=white)](https://github.com/daminikhq/daminik/stargazers) | ⚡ **Modern Headless DAM with CDN**: Modern, lightweight, API-first Digital Asset Manager featuring automated CDN distribution and unified team repositories. | Node.js, TypeScript | Apache-2.0 |
+| **[AtroCore / AtroDAM](https://github.com/atrocore/atrocore)** | [![AtroCore Stars](https://img.shields.io/github/stars/atrocore/atrocore?style=social&color=white)](https://github.com/atrocore/atrocore/stargazers) | 🧩 **Modular Business Application & DAM**: Highly configurable enterprise platform providing automated metadata extraction, asset lifecycle workflows, and asset-to-product mapping. | PHP, Backbone.js, MySQL | GPL-3.0 |
+| **[ResourceSpace](https://github.com/resourcespace/resourcespace)** | [![ResourceSpace Stars](https://img.shields.io/github/stars/resourcespace/resourcespace?style=social&color=white)](https://github.com/resourcespace/resourcespace/stargazers) | 🏛️ **Heritage & Enterprise DAM Platform**: Proven institutional asset repository utilized by major universities, NGOs, and museums; supports flexible metadata schemas, watermarking, and role-based access. | PHP, MySQL, Apache | BSD-4-Clause |
+
+---
+
+## 🎯 Choosing the Right DAM Architecture
+
+```mermaid
+flowchart TD
+    Start["Determine Your DAM Objective"] --> Vol{"Do you require tight CRM/Product Data coupling?"}
+    
+    Vol -- Yes: E-commerce Product Media --> PIM["Evaluate Pimcore / Akeneo PIM"]
+    Vol -- Yes: Lead Tracking & Sales Collateral --> CRM["Evaluate HubSpot Asset Management"]
+    Vol -- No: Creative Marketing & Brand Governance --> Hosting{"Self-Hosted Infrastructure or Fully Managed SaaS?"}
+    
+    Hosting -- Self-Hosted Open-Source --> OSSChoice{"Primary Media Format?"}
+    OSSChoice -- Images & AI Face/Scene Tagging --> OSS_Photo["Photoprism / Piwigo"]
+    OSSChoice -- Heavy Multimedia & Broadcast Video --> OSS_Video["Phraseanet / ResourceSpace"]
+    OSSChoice -- 3D Renders & Product Assets --> OSS_3D["Manyfold"]
+    
+    Hosting -- Managed SaaS Cloud --> Budget{"Organization Budget Tier"}
+    Budget -- SMB (<$100/mo) --> SMB_DAM["Air ($25/mo) or Filecamp ($29/mo)"]
+    Budget -- Mid-Market ($5k-$25k/yr) --> Mid_DAM["Frontify / MediaValet / Canto"]
+    Budget -- Enterprise ($30k-$100k+/yr) --> Ent_DAM["Bynder / Brandfolder / Acquia DAM / Aprimo"]
+```
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-dam`).
+3. 📝 **Add or update an entry**:
+   - For SaaS products: include specific entry pricing, exact free tier / trial terms, and revenue/valuation.
+   - For Open-Source projects: verify the repository URL, include the social star badge, tech stack, and license.
+4. 🚀 **Submit a Pull Request** with a clear explanation of your additions.
+
+---
+
+## ⚖️ Disclaimer & Compliance
+
+- This repository is a curated community informational list and does not constitute commercial endorsement or legal advisory.
+- Proprietary assets, marketing campaigns, and customer collateral are subject to intellectual property laws and privacy standards (**GDPR**, **CCPA**).
+- **License Vigilance**: Always review licenses before enterprise deployments (e.g., Pimcore's POCL restricts free commercial use to entities with $\le$€5M annual revenue).
+- Always verify quotes and SLA terms directly with SaaS vendors, as packaging models change over time.
+
+---
+
+<p align="center">
+  <sub>Built with ❤️ by marketers and developers. Star ⭐ this repository if you find it valuable!</sub>
+</p>

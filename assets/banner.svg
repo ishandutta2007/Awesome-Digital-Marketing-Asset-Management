@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="420" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a0f1d" />
+    </linearGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <linearGradient id="cyan-violet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <linearGradient id="pill-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glow-pink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="45" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <!-- Pattern Background -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+      <circle cx="40" cy="40" r="1.5" fill="#64748b" fill-opacity="0.25" />
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 44px;
+        fill: #ffffff;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 19px;
+        fill: #94a3b8;
+      }
+      .tagline-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #38bdf8;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+      .stat-val {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        fill: #f8fafc;
+      }
+      .stat-lbl {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        fill: #64748b;
+      }
+
+      /* Dynamic Animations */
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes floatDelayed {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -40; }
+      }
+
+      .floating-orb-1 {
+        transform-origin: 200px 100px;
+        animation: pulseGlow 7s ease-in-out infinite;
+      }
+      .floating-orb-2 {
+        transform-origin: 1000px 320px;
+        animation: pulseGlow 9s ease-in-out infinite alternate;
+      }
+      .card-float-1 {
+        animation: floatSlow 5s ease-in-out infinite;
+      }
+      .card-float-2 {
+        animation: floatDelayed 6s ease-in-out infinite;
+      }
+      .flow-path {
+        stroke-dasharray: 6, 6;
+        animation: dashFlow 2.5s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bg-grad)" rx="16" />
+  <rect width="1200" height="420" fill="url(#grid)" rx="16" />
+
+  <!-- Dynamic Glowing Orbs in Background -->
+  <circle class="floating-orb-1" cx="220" cy="120" r="130" fill="#4f46e5" opacity="0.4" filter="url(#glow-cyan)" />
+  <circle class="floating-orb-2" cx="980" cy="300" r="140" fill="#db2777" opacity="0.35" filter="url(#glow-pink)" />
+  <circle cx="600" cy="210" r="240" fill="#06b6d4" opacity="0.08" filter="url(#glow-cyan)" />
+
+  <!-- Dynamic Animated Flow Connections in Background -->
+  <path class="flow-path" d="M 120 340 C 350 380, 500 290, 750 350 S 1080 300, 1150 340" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.45" />
+  <path class="flow-path" d="M 80 80 C 300 40, 600 120, 880 70 S 1050 110, 1140 80" fill="none" stroke="#ec4899" stroke-width="1.8" opacity="0.35" />
+
+  <!-- Glassmorphic Decorative Metric Cards (Right Side, floating gently) -->
+  <g class="card-float-1" transform="translate(860, 65)" filter="url(#card-shadow)">
+    <rect width="260" height="84" rx="12" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1.2" />
+    <circle cx="36" cy="42" r="18" fill="#4f46e5" fill-opacity="0.2" />
+    <path d="M 28 42 L 34 48 L 45 36" fill="none" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="68" y="38" class="stat-val">Enterprise &amp; OSS</text>
+    <text x="68" y="58" class="stat-lbl">Hybrid Ecosystem DAMs</text>
+  </g>
+
+  <g class="card-float-2" transform="translate(890, 175)" filter="url(#card-shadow)">
+    <rect width="250" height="84" rx="12" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1.2" />
+    <circle cx="36" cy="42" r="18" fill="#ec4899" fill-opacity="0.2" />
+    <path d="M 28 35 H 44 V 49 H 28 Z M 32 40 H 40" fill="none" stroke="#f472b6" stroke-width="2" stroke-linecap="round" />
+    <text x="68" y="38" class="stat-val">$6.2B → $25B+</text>
+    <text x="68" y="58" class="stat-lbl">DAM Global Sector Scale</text>
+  </g>
+
+  <g class="card-float-1" transform="translate(830, 285)" filter="url(#card-shadow)">
+    <rect width="280" height="74" rx="12" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1.2" />
+    <circle cx="34" cy="37" r="16" fill="#10b981" fill-opacity="0.2" />
+    <circle cx="34" cy="37" r="6" fill="#34d399" />
+    <text x="64" y="34" class="stat-val">AI Tagging &amp; Visual Search</text>
+    <text x="64" y="52" class="stat-lbl">Autonomous Workflow Governance</text>
+  </g>
+
+  <!-- Foreground Content: Header & Title & Badges (Stays in high contrast foreground) -->
+  <g transform="translate(80, 0)">
+    <!-- Tagline Badge -->
+    <g transform="translate(0, 72)">
+      <rect width="280" height="28" rx="14" fill="#0369a1" fill-opacity="0.25" stroke="#0284c7" stroke-width="1" />
+      <circle cx="16" cy="14" r="5" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="32" y="19" class="tagline-text">CURATED AWESOME MATRIX</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="152" class="title-text">
+      Digital Marketing <tspan fill="url(#accent-grad)">Asset Management</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="196" class="subtitle-text">
+      The authoritative index of enterprise SaaS &amp; self-hosted open-source DAM platforms.
+    </text>
+
+    <text x="0" y="226" class="subtitle-text" font-size="16px" fill="#64748b">
+      Compare commercial platforms, pricing tiers, market scale, and top open-source repositories.
+    </text>
+
+    <!-- Feature Pills in Foreground -->
+    <g transform="translate(0, 275)">
+      <!-- Pill 1 -->
+      <g>
+        <rect width="185" height="38" rx="19" fill="#1e293b" stroke="#3b82f6" stroke-width="1.3" />
+        <circle cx="20" cy="19" r="6" fill="#3b82f6" />
+        <text x="36" y="24" class="pill-text">🎨 Brand Portals</text>
+      </g>
+
+      <!-- Pill 2 -->
+      <g transform="translate(200, 0)">
+        <rect width="185" height="38" rx="19" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.3" />
+        <circle cx="20" cy="19" r="6" fill="#8b5cf6" />
+        <text x="36" y="24" class="pill-text">⚡ AI Auto-Tagging</text>
+      </g>
+
+      <!-- Pill 3 -->
+      <g transform="translate(400, 0)">
+        <rect width="185" height="38" rx="19" fill="#1e293b" stroke="#ec4899" stroke-width="1.3" />
+        <circle cx="20" cy="19" r="6" fill="#ec4899" />
+        <text x="36" y="24" class="pill-text">🛡️ Asset Governance</text>
+      </g>
+
+      <!-- Pill 4 -->
+      <g transform="translate(600, 0)">
+        <rect width="185" height="38" rx="19" fill="#1e293b" stroke="#10b981" stroke-width="1.3" />
+        <circle cx="20" cy="19" r="6" fill="#10b981" />
+        <text x="36" y="24" class="pill-text">💻 Self-Hosted DAM</text>
+      </g>
+    </g>
+
+    <!-- Bottom border accent -->
+    <rect x="0" y="355" width="785" height="3" rx="1.5" fill="url(#accent-grad)" opacity="0.8" />
+  </g>
+</svg>
