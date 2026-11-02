@@ -4,10 +4,7 @@
 
 # 🚀 Awesome Digital Marketing Asset Management (DAM)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Digital-Marketing-Asset-Management/pulls)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Digital-Marketing-Asset-Management)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt"Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Digital-Marketing-Asset-Management/pulls) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Digital-Marketing-Asset-Management) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > 🌟 **A comprehensive, SEO-optimized, community-curated directory of Digital Marketing Asset Management (DAM) software, Brand Portals, Content Governance Suites, and Open-Source Self-Hosted Media Repositories.**
 
@@ -19,6 +16,8 @@
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🎯 Choosing the Right DAM Architecture](#-choosing-the-right-dam-architecture)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
 - [⚖️ Disclaimer & Compliance](#-disclaimer--compliance)
 
 ---
@@ -99,6 +98,24 @@ flowchart TD
    - For SaaS products: include specific entry pricing, exact free tier / trial terms, and revenue/valuation.
    - For Open-Source projects: verify the repository URL, include the social star badge, tech stack, and license.
 4. 🚀 **Submit a Pull Request** with a clear explanation of your additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and utilizing this curated index of Digital Marketing Asset Management solutions! If you found this repository helpful, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and contribute** to keep entries fresh and accurate.
+- 📢 **Share with colleagues, brand teams, and marketing engineers**.
+- ☕ **Buy a coffee & sponsor**: Support ongoing maintenance through the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+[![Sponsor ishandutta2007](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Digital-Marketing-Asset-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Digital-Marketing-Asset-Management&type=date&legend=top-left)
 
 ---
 
