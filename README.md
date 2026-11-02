@@ -51,9 +51,9 @@ Below is an overview of commercial SaaS DAM platforms, complete with verified ba
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore battle-tested, self-hosted, and community-maintained open-source alternatives. Repositories are ranked in descending order of GitHub star count, featuring real-time star badges linking directly to their stargazers page.
+Explore battle-tested, self-hosted, and community-maintained open-source alternatives. Repositories are ranked in descending order of GitHub Stars_Count, featuring real-time Stars_Badges linking directly to their stargazers page.
 
-| Repository | GitHub Stars Badge | Primary Focus & Capabilities | Tech Stack | License |
+| Repository | GitHub_Stars_Badge | Primary Focus & Capabilities | Tech Stack | License |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Photoprism](https://github.com/photoprism/photoprism)** | [![Photoprism Stars](https://img.shields.io/github/stars/photoprism/photoprism?style=social&color=white)](https://github.com/photoprism/photoprism/stargazers) | 🤖 **AI-Powered Visual Asset Library**: Highly optimized for visual indexing, automatic face detection, reverse-geocoding, and semantic image classification. | Go, Vue.js, TensorFlow | AGPL-3.0 |
 | **[Pimcore](https://github.com/pimcore/pimcore)** | [![Pimcore Stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers) | 📦 **Enterprise DAM + PIM + DXP**: Full-scale master data management unifying digital marketing collateral, e-commerce product media, and omnichannel asset distribution. *(Note: POCL license limits free production use to organizations ≤€5M revenue).* | PHP, Symfony, MySQL | Pimcore Open Core / GPLv3 |
@@ -96,7 +96,7 @@ flowchart TD
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-dam`).
 3. 📝 **Add or update an entry**:
    - For SaaS products: include specific entry pricing, exact free tier / trial terms, and revenue/valuation.
-   - For Open-Source projects: verify the repository URL, include the social star badge, tech stack, and license.
+   - For Open-Source projects: verify the repository URL, include the social Stars_Badge, tech stack, and license.
 4. 🚀 **Submit a Pull Request** with a clear explanation of your additions.
 
 ---
